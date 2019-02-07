@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Today from './Today/Today';
+import Today from './Today/Today'; 
 import Past from './Past/Past';
 class App extends Component {
   render() {
@@ -11,7 +11,7 @@ class App extends Component {
           Welcome to Cryptocurrency website
         </header>
         <Today />
-        <Past />
+        <Past /> 
       </div>
     );
   }
